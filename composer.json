@@ -1,0 +1,37 @@
+{
+    "name": "webcoast/file-backend-layouts",
+    "description": "File based backend layout provider for TYPO3 CMS",
+    "keywords": [
+        "typo3",
+        "cms",
+        "backend",
+        "layout",
+        "typoscript",
+        "tsconfig",
+        "file"
+    ],
+    "type": "typo3-cms-extension",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Thorben Nissen",
+            "email": "thorben@webcoast.dk"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "WEBcoast\\FileBackendLayouts\\": "Classes"
+        }
+    },
+    "require": {
+        "typo3/cms-backend": "^v9.5.0 || ^v10.4.0",
+        "typo3/cms-core": "^v9.5.0 || ^v10.4.0"
+    }
+}
