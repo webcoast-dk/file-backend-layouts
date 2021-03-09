@@ -23,6 +23,9 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
+        },
+        "typo3/cms": {
+            "extension-key": "file_backend_layouts"
         }
     },
     "autoload": {
