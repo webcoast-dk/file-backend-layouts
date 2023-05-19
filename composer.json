@@ -34,7 +34,7 @@
         }
     },
     "require": {
-        "typo3/cms-backend": "^v9.5 || ^v10.4 || ^v11.5",
-        "typo3/cms-core": "^v9.5 || ^v10.4 || ^v11.5"
+        "typo3/cms-backend": "^v9.5 || ^v10.4 || ^v11.5 || ^v12.4",
+        "typo3/cms-core": "^v9.5 || ^v10.4 || ^v11.5 || ^v12.4"
     }
 }
