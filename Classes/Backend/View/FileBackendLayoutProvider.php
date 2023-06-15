@@ -19,7 +19,7 @@ class FileBackendLayoutProvider implements BackendLayout\DataProviderInterface
      */
     public function addBackendLayouts(BackendLayout\DataProviderContext $dataProviderContext, BackendLayout\BackendLayoutCollection $backendLayoutCollection)
     {
-        if (is_array($GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['file_backend_layouts']['BackendLayouts'])) {
+        if (is_array($GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['file_backend_layouts']['BackendLayouts'] ?? null)) {
             foreach ($GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['file_backend_layouts']['BackendLayouts'] as $extensionKey => $configuration) {
                 list ($path, $languageFile) = $configuration;
                 // set default path, if no path is set
